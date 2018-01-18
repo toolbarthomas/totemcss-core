@@ -2,7 +2,7 @@
   "name": "totemcss-core",
   "homepage": "https://github.com/toolbarthomas/totemcss-core",
   "version": "0.1.0",
-  "description": "Core utilities for Totem",
+  "description": "Core utilities for Totemcss",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
