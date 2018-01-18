@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /// Combines 2 maps into one without destroying any keys that are not present in the base map
-/// Usefull for updating settings within Totem
+/// Usefull for updating settings within Totemcss
 ///
 /// @param { Map } $base-map
 ///     The base map will be used as the base file.

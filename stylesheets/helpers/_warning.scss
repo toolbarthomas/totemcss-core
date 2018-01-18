@@ -10,8 +10,8 @@
 ){
     @if $message {
 
-        @if not get-setting($totem, 'settings', 'mute-warnings') {
-            @return '[ Totem ] - #{$message}';
+        @if not get-setting($totemcss, 'settings', 'mute-warnings') {
+            @return '[ Totemcss ] - #{$message}';
         }
 
     }
