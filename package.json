@@ -1,0 +1,26 @@
+{
+  "name": "totemcss-core",
+  "homepage": "https://github.com/toolbarthomas/totemcss-core",
+  "version": "0.1.0",
+  "description": "Core utilities for Totem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "gulp build",
+    "dev": "gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://toolbarthomas@github.com/toolbarthomas/totemcss-core.git"
+  },
+  "keywords": [
+    "totemcss",
+    "totemcss-core",
+    "core"
+  ],
+  "author": "Thomas van der Velde <contact@toolbarthomas.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toolbarthomas/totemcss-core/issues"
+  }
+}
