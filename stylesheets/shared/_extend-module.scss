@@ -1,0 +1,27 @@
+@function extend-module($list) {
+
+    $styles: map-remove($list, 'default');
+    $selectors: ();
+
+    @if length($styles) > 0 {
+        @each $key, $style in $styles {
+
+            @if map-get($style, 'selector') {
+                $selector: (
+                    'name': $key,
+                    'selector': map-get($style, 'selector')
+                );
+
+                $selectors: append($selectors, $selector);
+            } @else {
+                @warn warning('Current map has no "selector" key defined');
+            }
+        }
+    }
+
+    @if length($selectors) == 0 {
+        @return false;
+    } @else {
+        @return $selectors;
+    }
+}
