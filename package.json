@@ -1,7 +1,7 @@
 {
   "name": "totemcss-core",
   "homepage": "https://github.com/toolbarthomas/totemcss-core",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Core utilities for Totemcss",
   "main": "index.js",
   "scripts": {
